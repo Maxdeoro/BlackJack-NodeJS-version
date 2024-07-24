@@ -1,0 +1,29 @@
+{
+  "name": "blackjacknodejsversion",
+  "version": "1.0.0",
+  "description": "Console Black Jack game on nodejs",
+  "main": "Game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxdeoro/BlackJack-NodeJS-version.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "blackjack",
+    "console",
+    "prompt-sync"
+  ],
+  "author": "Maxdeoro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Maxdeoro/BlackJack-NodeJS-version/issues"
+  },
+  "homepage": "https://github.com/Maxdeoro/BlackJack-NodeJS-version#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
