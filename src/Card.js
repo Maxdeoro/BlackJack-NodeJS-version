@@ -5,26 +5,26 @@
 
 class Card {
     constructor(suit,rank) {
-        this.suit = suit;
-        this.rank = rank;
+        this._suit = suit;
+        this._rank = rank;
         if (rank === 'J' || rank === 'Q' || rank === 'K') {
             this._value = 10;
         } else if (rank === 'A') {
             this._value = 11;
         } else {
-            this._value = parseInt(this.rank);
+            this._value = parseInt(this._rank);
         }
     };
 
-    get Suit() {
+    get suit() {
         return this._suit;
     };
 
-    get Rank() {
+    get rank() {
         return this._rank;
     };
 
-    get Value() {
+    get value() {
         return this._value;
     };
 
